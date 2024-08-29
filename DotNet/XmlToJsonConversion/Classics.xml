@@ -1,0 +1,17 @@
+<library>
+    <book>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <year>1813</year>
+    </book>
+    <book>
+        <title>Moby-Dick</title>
+        <author>Herman Melville</author>
+        <year>1851</year>
+    </book>
+    <book>
+        <title>War and Peace</title>
+        <author>Leo Tolstoy</author>
+        <year>1869</year>
+    </book>
+</library>

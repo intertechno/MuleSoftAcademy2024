@@ -1,0 +1,21 @@
+{
+    "library": {
+        "book": [
+            {
+                "title": "Clean Code",
+                "author": "Robert C. Martin",
+                "year": "2008"
+            },
+            {
+                "title": "The Pragmatic Programmer",
+                "author": "Andrew Hunt",
+                "year": "1999"
+            },
+            {
+                "title": "Introduction to Algorithms",
+                "author": "Thomas H. Cormen",
+                "year": "2009"
+            }
+        ]
+    }
+}

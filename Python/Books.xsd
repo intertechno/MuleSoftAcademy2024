@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Definition of the library element -->
+    <xs:element name="library">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- The library can contain multiple book elements -->
+                <xs:element name="book" maxOccurs="unbounded" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Each book must have a title -->
+                            <xs:element name="title" type="xs:string" />
+                            <!-- Each book can have one or more authors -->
+                            <xs:element name="author" type="xs:string" maxOccurs="unbounded" minOccurs="1" />
+                            <!-- Each book must have a year -->
+                            <xs:element name="year" type="xs:integer" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

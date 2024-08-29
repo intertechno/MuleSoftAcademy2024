@@ -1,0 +1,17 @@
+<library>
+    <book>
+        <title>The Diary of a Young Girl</title>
+        <author>Anne Frank</author>
+        <year>1947</year>
+    </book>
+    <book>
+        <title>Long Walk to Freedom</title>
+        <author>Nelson Mandela</author>
+        <year>1994</year>
+    </book>
+    <book>
+        <title>Steve Jobs</title>
+        <author>Walter Isaacson</author>
+        <year>2011</year>
+    </book>
+</library>
