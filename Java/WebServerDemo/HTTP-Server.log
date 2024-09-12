@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-01T06:46:40.969362Z</date>
+  <millis>1722494800969</millis>
+  <nanos>362000</nanos>
+  <sequence>0</sequence>
+  <logger>webserver-main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Starting the HTTP web server demo.</message>
+</record>
+<record>
+  <date>2024-08-01T06:46:41.094651300Z</date>
+  <millis>1722494801094</millis>
+  <nanos>651300</nanos>
+  <sequence>1</sequence>
+  <logger>webserver-main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>About to start the HTTP server.</message>
+</record>
+<record>
+  <date>2024-08-01T06:46:44.434954500Z</date>
+  <millis>1722494804434</millis>
+  <nanos>954500</nanos>
+  <sequence>2</sequence>
+  <logger>webserver-main</logger>
+  <level>INFO</level>
+  <class>MyHandler</class>
+  <method>handle</method>
+  <thread>31</thread>
+  <message>MyHandler was called.</message>
+</record>
+<record>
+  <date>2024-08-01T06:46:44.470941900Z</date>
+  <millis>1722494804470</millis>
+  <nanos>941900</nanos>
+  <sequence>3</sequence>
+  <logger>webserver-main</logger>
+  <level>INFO</level>
+  <class>MyHandler</class>
+  <method>handle</method>
+  <thread>31</thread>
+  <message>MyHandler completed.</message>
+</record>
+</log>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.10.4 on win32)" generated="2024-08-26T11:54:25.397074" rpa="false" schemaversion="5">
+<suite id="s1" name="MathTests" source="C:\Academy\MuleSoft\Code\Robot\MathTests.robot">
+<test id="s1-t1" name="Test Sum Calculation" line="8">
+<kw name="Convert To Integer" owner="BuiltIn">
+<msg time="2024-08-26T11:54:25.428006" level="INFO">${a} = 10</msg>
+<var>${a}</var>
+<arg>10</arg>
+<doc>Converts the given item to an integer number.</doc>
+<status status="PASS" start="2024-08-26T11:54:25.428006" elapsed="0.000000"/>
+</kw>
+<kw name="Convert To Integer" owner="BuiltIn">
+<msg time="2024-08-26T11:54:25.429031" level="INFO">${b} = 20</msg>
+<var>${b}</var>
+<arg>20</arg>
+<doc>Converts the given item to an integer number.</doc>
+<status status="PASS" start="2024-08-26T11:54:25.428006" elapsed="0.001025"/>
+</kw>
+<kw name="Calculate Sum" owner="MathDemo">
+<msg time="2024-08-26T11:54:25.429031" level="INFO">${result} = 30</msg>
+<var>${result}</var>
+<arg>${a}</arg>
+<arg>${b}</arg>
+<status status="PASS" start="2024-08-26T11:54:25.429031" elapsed="0.000000"/>
+</kw>
+<kw name="Convert To String" owner="BuiltIn">
+<msg time="2024-08-26T11:54:25.430002" level="INFO">${final} = 30</msg>
+<var>${final}</var>
+<arg>${result}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<status status="PASS" start="2024-08-26T11:54:25.429031" elapsed="0.000971"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${final}</arg>
+<arg>30</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2024-08-26T11:54:25.430002" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-08-26T11:54:25.426748" elapsed="0.003254"/>
+</test>
+<test id="s1-t2" name="Test Sum Calculation 2" line="18">
+<kw name="Calculate Sum" owner="MathDemo">
+<msg time="2024-08-26T11:54:25.431002" level="INFO">${result} = 30</msg>
+<var>${result}</var>
+<arg>10</arg>
+<arg>20</arg>
+<status status="PASS" start="2024-08-26T11:54:25.431002" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${result}</arg>
+<arg>30</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2024-08-26T11:54:25.432002" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-08-26T11:54:25.431002" elapsed="0.001000"/>
+</test>
+<doc>Simple calculation test for a Python file</doc>
+<status status="PASS" start="2024-08-26T11:54:25.398000" elapsed="0.034002"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="MathTests">MathTests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

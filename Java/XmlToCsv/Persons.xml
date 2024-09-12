@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+    <person>
+        <name>John Doe</name>
+        <address>123 Main St, Springfield, IL</address>
+        <phone>555-1234</phone>
+    </person>
+    <person>
+        <name>Jane Smith</name>
+        <address>456 Oak Ave, Metropolis, NY</address>
+        <phone>555-5678</phone>
+    </person>
+    <person>
+        <name>Emily Johnson</name>
+        <address>789 Pine Rd, Gotham, CA</address>
+        <phone>555-8765</phone>
+    </person>
+</persons>
